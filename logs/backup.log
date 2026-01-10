@@ -1,0 +1,12 @@
+sending incremental file list
+Documents/
+
+sent 75 bytes  received 20 bytes  190.00 bytes/sec
+total size is 0  speedup is 0.00
+Backup completed on Thu Jan  8 09:58:25 PM EST 2026
+sending incremental file list
+Documents/
+
+sent 71 bytes  received 20 bytes  182.00 bytes/sec
+total size is 0  speedup is 0.00
+Backup completed on Thu Jan  8 10:04:30 PM EST 2026
