@@ -1,27 +1,37 @@
 # Linux Automation Toolkit (Bash Scripting)
 
-## 📌 Project Overview
-This project contains a collection of Bash scripts designed to automate common Linux system administration tasks such as backups, monitoring, and bulk file operations.
+## 📌 Overview
+Linux Automation Toolkit is a collection of Bash scripts designed to automate routine Linux system administration tasks such as backups, monitoring, and file management. The project helps reduce manual effort and improve system reliability.
 
-The goal of this project is to reduce manual effort, improve system reliability, and demonstrate real-world Linux automation skills.
-
----
-
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 - Bash Scripting
-- Linux Command Line
-- rsync
+- Linux CLI
 - cron
+- rsync
 - grep
 - awk
 
----
-
-## ⚙️ Features
+## 🔧 Features
 - Automated data backup using rsync
-- System monitoring scripts for CPU, memory, disk usage, and load
-- Bulk file operations (copy, move, delete, rename)
+- System resource monitoring (CPU, memory, disk usage)
+- Bulk file operations
 - Scheduled jobs using cron
 - Log generation and rotation
-- Alert mechanism for system resource threshold breaches
+- Alert mechanism for resource threshold breaches
 
+## 📂 Scripts Included
+- backup.sh – Automates file and directory backups
+- monitor.sh – Monitors system resources and logs usage
+- cleanup.sh – Performs log rotation and old file cleanup
+- bulk_ops.sh – Handles bulk file operations
+
+## ⏰ Automation
+Cron jobs are configured to:
+- Run scheduled backups
+- Rotate logs automatically
+- Monitor system resources at fixed intervals
+
+## 🚀 How to Run
+`bash
+chmod +x script_name.sh
+./script_name.sh
